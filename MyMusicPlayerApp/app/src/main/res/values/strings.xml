@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">My Music Player App</string>
+    <string name="yoga">Yoga</string>
+    <string name="YogaPlaylist">This activity shows yoga music in a ListView. The items come from the SongAdapter associated with the view. Activity is accessible from the MainActivity.
+        After clicking (click events on each item in an AdapterView by implementing the AdapterView.OnItemClickListener interface) on the song a activity_now_playing opens and plays the song.
+        RecyclerView should be used to manage all lists. Up button get user back to MainActivity.</string>
+    <string name="nowPlayingActivity">This activity controls state of played song using MediaPlayer API and AudioManager. Album cover image, song name, and artist name will be changed automatically.</string>
+    <string name="mainScreen">Main activity displays music for three purposes: exercising yoga, exercising freeletics or just enjoying time. When clicking on the selected music preference, an explicit intent is triggered to the My Yoga Music or My Freeletics Music or My ChilloutMusic screen. </string>
+    <string name="blank">" "</string>
+    <string name="FreeleticsMusic">This activity shows songs in a ListView. The items come from the SongAdapter associated with the view. Activity is accessible from the MainActivity.
+        After clicking (click events on each item in an AdapterView by implementing the AdapterView.OnItemClickListener interface) on the song a activity_now_playing opens and plays the song.
+        RecyclerView should be used to manage all lists. Up button get user back to MainActivity. </string>
+    <string name="ChillOutMusic">This activity shows songs in a ListView.
+        The items come from the SongAdapter associated with the view. Activity is accessible from the MainActivity.
+        After clicking (click events on each item in an AdapterView by implementing the AdapterView.OnItemClickListener interface) on the song a activity_now_playing opens and plays the song.
+        RecyclerView should be used to manage all lists. Up button get user back to MainActivity. </string>
+    <string name="artist_name">Artist Name</string>
+    <string name="song_name">Song Name</string>
+    <string name="return_to_menu">Return to menu</string>
+    <string name="freeletics">Freeletics</string>
+    <string name="chill_out">Chill Out</string>
+</resources>

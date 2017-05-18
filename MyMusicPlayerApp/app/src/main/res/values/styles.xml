@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CategoryView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/height_null</item>
+    </style>
+
+    <style name="CategoryTextView">
+        <item name="android:layout_width">@dimen/button_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:padding">@dimen/padding_normal</item>
+        <item name="android:textSize">@dimen/CategoryName</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="IconStyle">
+        <item name="android:layout_width">@dimen/height_null</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/padding_normal</item>
+    </style>
+
+    <style name="DescriptionTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/padding_normal</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>
